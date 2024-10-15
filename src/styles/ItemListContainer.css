@@ -1,0 +1,27 @@
+/* ItemListContainer.css */
+.container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1200px;
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  li {
+    flex: 1 1 calc(33% - 2rem);
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #f7f7f7;
+  }
+  
